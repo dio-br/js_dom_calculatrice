@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/style.css">
     <title>calculatrice</title>
 </head>
+
 <body>
     <div class="calculatrice">
-        <div class="ecran"></div>
-        <div class="touches">
-            <button  class="bouton">C</button>
-            <button  class="bouton">(</button>
-            <button  class="bouton">)</button>
-            <button  class="bouton">/</button>
-            <button  class="bouton">7</button>
-            <button  class="bouton">8</button>
-            <button  class="bouton">9</button>
-            <button  class="bouton">*</button>
-            <button  class="bouton">4</button>
-            <button  class="bouton">5</button>
-            <button  class="bouton">6</button>
-            <button  class="bouton">-</button>
-            <button  class="bouton">1</button>
-            <button  class="bouton">2</button>
-            <button  class="bouton">3</button>
-            <button  class="bouton">+</button>
-            <button  class="bouton">0</button>
-            <button  class="bouton">.</button>
-            <button  class="bouton">=</button>
+        <div class="ecran">
+            <input id="output" /></td>
         </div>
-    </div>
-    <script src="./public/js/main.js"></script>
+        <div class="touches">
+
+            <button id="effacer" onclick="effacer()">c</button>
+            <button onclick="afficher('1')">1</button>
+            <button onclick="afficher('2')">2</button>
+            <button onclick="afficher('3')">3</button>
+            <button onclick="afficher('+')">+</button>
+            <button onclick="afficher('4')">4</button>
+            <button onclick="afficher('5')">5</button>
+            <button onclick="afficher('6')">6</button>
+            <button onclick="afficher('-')">-</button>
+            <button onclick="afficher('7')">7</button>
+            <button onclick="afficher('8')">8</button>
+            <button onclick="afficher('9')">9</button>
+            <button onclick="afficher('*')">*</button>
+            <button onclick="afficher('.')">.</button>
+            <button onclick="afficher('0')">0</button>
+            <button onclick="afficher('/')">/</button>
+            <button id="egal" onclick="calculer()">=</button>
+        </div>
+        <script src="./public/js/main.js"></script>
 </body>
+
 </html>
+

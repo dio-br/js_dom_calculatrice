@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #d18ca4 0%, #fbc2eb 100%);
 }
 
 .calculatrice {
@@ -43,4 +43,24 @@ body {
     grid-gap: 7px;
 }
 
- 
+input {
+    width: 210px;
+    height: 70px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#egal{
+    grid-column: span 4;
+    background-color: rgb(8, 155, 32);
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+}
+#effacer{
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
