@@ -9,7 +9,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background-image: url(https://s.france24.com/media/display/3537d136-49a2-11e9-a583-005056bff430/w:980/p:16x9/180319-math-dev-m.webp);
 }
 
 .calculator-grid {
